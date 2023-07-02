@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		60DDC9F22A1E0F1F00B24A2A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60DDC9F12A1E0F1F00B24A2A /* main.cpp */; };
+		60DDC9FA2A1E0F7D00B24A2A /* Board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60DDC9F82A1E0F7D00B24A2A /* Board.cpp */; };
+		60DDC9FD2A1E0FA800B24A2A /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60DDC9FB2A1E0FA800B24A2A /* Player.cpp */; };
+		60DDCA002A1E0FC100B24A2A /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60DDC9FE2A1E0FC100B24A2A /* Game.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		60DDC9EE2A1E0F1F00B24A2A /* project 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "project 3"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60DDC9F12A1E0F1F00B24A2A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		60DDC9F82A1E0F7D00B24A2A /* Board.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Board.cpp; sourceTree = "<group>"; wrapsLines = 0; };
+		60DDC9F92A1E0F7D00B24A2A /* Board.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		60DDC9FB2A1E0FA800B24A2A /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		60DDC9FC2A1E0FA800B24A2A /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		60DDC9FE2A1E0FC100B24A2A /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		60DDC9FF2A1E0FC100B24A2A /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		60DDCA012A1E101C00B24A2A /* Side.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Side.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +51,7 @@
 		60DDC9E52A1E0F1E00B24A2A = {
 			isa = PBXGroup;
 			children = (
-				60DDC9F02A1E0F1F00B24A2A /* project 3 */,
+				60DDC9F02A1E0F1F00B24A2A /* kalah */,
 				60DDC9EF2A1E0F1F00B24A2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +64,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		60DDC9F02A1E0F1F00B24A2A /* project 3 */ = {
+		60DDC9F02A1E0F1F00B24A2A /* kalah */ = {
 			isa = PBXGroup;
 			children = (
 				60DDC9F12A1E0F1F00B24A2A /* main.cpp */,
+				60DDC9F82A1E0F7D00B24A2A /* Board.cpp */,
+				60DDC9F92A1E0F7D00B24A2A /* Board.h */,
+				60DDC9FB2A1E0FA800B24A2A /* Player.cpp */,
+				60DDC9FC2A1E0FA800B24A2A /* Player.h */,
+				60DDC9FE2A1E0FC100B24A2A /* Game.cpp */,
+				60DDC9FF2A1E0FC100B24A2A /* Game.h */,
+				60DDCA012A1E101C00B24A2A /* Side.h */,
 			);
-			path = "project 3";
+			path = kalah;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 60DDC9E92A1E0F1E00B24A2A /* Build configuration list for PBXProject "project 3" */;
+			buildConfigurationList = 60DDC9E92A1E0F1E00B24A2A /* Build configuration list for PBXProject "kalah" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +136,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60DDC9FA2A1E0F7D00B24A2A /* Board.cpp in Sources */,
 				60DDC9F22A1E0F1F00B24A2A /* main.cpp in Sources */,
+				60DDC9FD2A1E0FA800B24A2A /* Player.cpp in Sources */,
+				60DDCA002A1E0FC100B24A2A /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +274,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		60DDC9E92A1E0F1E00B24A2A /* Build configuration list for PBXProject "project 3" */ = {
+		60DDC9E92A1E0F1E00B24A2A /* Build configuration list for PBXProject "kalah" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60DDC9F32A1E0F1F00B24A2A /* Debug */,
